@@ -30,7 +30,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kh0-po-Puf">
-                                <rect key="frame" x="30" y="314" width="354" height="76"/>
+                                <rect key="frame" x="30" y="314" width="354" height="52.5"/>
                                 <string key="text">این کیت صرفا جهت اطمینان از صحت نصب اپ های اپل اپس بر روی دستگاه شما نصب شده است و همچنین قابلیت دریافت آخرین نوتیفیکیشن های استور اپل اپس در این کیت فراهم می باشد.</string>
                                 <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="15"/>
                                 <color key="textColor" name="CTitle"/>

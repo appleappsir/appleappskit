@@ -14,7 +14,6 @@
 		8838DAB2250CE6BC0056C432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8838DAB0250CE6BC0056C432 /* LaunchScreen.storyboard */; };
 		8838DABA250CE7290056C432 /* IRANSansMobile.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8838DAB9250CE7290056C432 /* IRANSansMobile.ttf */; };
 		8838DACE250D69780056C432 /* AWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838DACD250D69780056C432 /* AWViewController.swift */; };
-		ED26DF9DA963C6C9286C6CD6 /* libPods-AppleApps Kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B6504812880CAB358DBCED /* libPods-AppleApps Kit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,9 +30,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0E8FED6296C1EFE363E52D1A /* Pods-AppleApps Kit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleApps Kit.debug.xcconfig"; path = "Target Support Files/Pods-AppleApps Kit/Pods-AppleApps Kit.debug.xcconfig"; sourceTree = "<group>"; };
-		744619FA39247A328E27EF74 /* Pods-AppleApps Kit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleApps Kit.release.xcconfig"; path = "Target Support Files/Pods-AppleApps Kit/Pods-AppleApps Kit.release.xcconfig"; sourceTree = "<group>"; };
-		87B6504812880CAB358DBCED /* libPods-AppleApps Kit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleApps Kit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8838DAA2250CE6BB0056C432 /* AppleApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8838DAA5250CE6BB0056C432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8838DAA9250CE6BB0056C432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,28 +46,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED26DF9DA963C6C9286C6CD6 /* libPods-AppleApps Kit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BDB548B0A93CD159EDB24B0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				87B6504812880CAB358DBCED /* libPods-AppleApps Kit.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8838DA99250CE6BB0056C432 = {
 			isa = PBXGroup;
 			children = (
 				8838DAA4250CE6BB0056C432 /* AppleApps Kit */,
 				8838DAA3250CE6BB0056C432 /* Products */,
-				D187EF4621F92B16EFD7B164 /* Pods */,
-				1BDB548B0A93CD159EDB24B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,15 +83,6 @@
 			path = "AppleApps Kit";
 			sourceTree = "<group>";
 		};
-		D187EF4621F92B16EFD7B164 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0E8FED6296C1EFE363E52D1A /* Pods-AppleApps Kit.debug.xcconfig */,
-				744619FA39247A328E27EF74 /* Pods-AppleApps Kit.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,7 +90,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8838DAB6250CE6BC0056C432 /* Build configuration list for PBXNativeTarget "AppleApps Kit" */;
 			buildPhases = (
-				43159C6B38060C6790ECDB2E /* [CP] Check Pods Manifest.lock */,
 				8838DA9E250CE6BB0056C432 /* Sources */,
 				8838DA9F250CE6BB0056C432 /* Frameworks */,
 				8838DAA0250CE6BB0056C432 /* Resources */,
@@ -125,6 +100,8 @@
 			dependencies = (
 			);
 			name = "AppleApps Kit";
+			packageProductDependencies = (
+			);
 			productName = "AppleApps Kit";
 			productReference = 8838DAA2250CE6BB0056C432 /* AppleApps.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +129,8 @@
 				Base,
 			);
 			mainGroup = 8838DA99250CE6BB0056C432;
+			packageReferences = (
+			);
 			productRefGroup = 8838DAA3250CE6BB0056C432 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -174,31 +153,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		43159C6B38060C6790ECDB2E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AppleApps Kit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8838DA9E250CE6BB0056C432 /* Sources */ = {
@@ -284,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -351,7 +305,6 @@
 		};
 		8838DAB7250CE6BC0056C432 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E8FED6296C1EFE363E52D1A /* Pods-AppleApps Kit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "AppleApps Kit/AppleApps Kit.entitlements";
@@ -375,7 +328,6 @@
 		};
 		8838DAB8250CE6BC0056C432 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 744619FA39247A328E27EF74 /* Pods-AppleApps Kit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "AppleApps Kit/AppleApps Kit.entitlements";
